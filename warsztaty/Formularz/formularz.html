@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Warsztaty - formularz</title>
+</head>
+<body>
+    <p>Formularz kontaktowy:</p><br>
+    <form action="https://formspree.io/l.koszuk@gmail.com" method="POST">
+    <label for="imie_nazwisko">Imię i Nazwisko: </label><input type="text" name="imie_nazwisko" id="imie_nazwisko"><br>
+    <label for="twoj_email">Podaj adres email: </label><input type="email" name="twoj_email" id="twoj_email"><br>
+    <label for="telefon">Podaj numer telefonu: </label><input type="tel" name="telefon" id="telefon"><br>
+    <label for="wiadomosc">Treść wiadomośći: <br></label>
+    <textarea name="wiadomosc" id="wiadomosc" maxlength="1000" placeholder="Treść wiadomości" cols="30" rows="10"></textarea><br>
+    <input type="submit" value="Wyślij">
+</form>
+</body>
+</html>
