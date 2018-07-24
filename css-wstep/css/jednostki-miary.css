@@ -1,0 +1,57 @@
+#jednostki-miary > div {
+    background-color: rgb(56, 172, 56);
+    margin-bottom: 10px;
+}
+
+#piksele{
+    width: 400px;
+}
+
+#em{
+    width: 50em;
+}
+
+#procenty{
+    width: 50%;
+}
+
+#vh{
+    width: 50vh;
+}
+
+#main-nav ul li {
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    background-color: aqua;
+}
+
+.uklad-inner{
+    float: left;
+    width: 33.33333%;
+    height: 200px;
+    background-color: green;
+}
+
+.clear{
+    clear:both;
+}
+
+#tranzycja{
+    height: 200px;
+    background-color: orange;
+    width: 30%;
+/*
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 2s;
+*/
+    transition: width 0.5s easy-in 0s, background-color 0.5s easy-in 0.5s, height 0.5s easy-in 1s;
+}
+
+#tranzycja:hover{
+    background-color: blue;
+    width: 50%;
+}
+

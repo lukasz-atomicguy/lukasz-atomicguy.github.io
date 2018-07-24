@@ -1,0 +1,25 @@
+
+
+input[type]{
+    border: 5px solid red;
+}
+
+input[type="tel"]{
+    border: 5px solid yellow;
+}
+
+input[title~="pole"]{
+    border: 5px solid blue;
+}
+
+input[title*="form"]{
+    border: 5px solid grey;
+}
+
+input[title^="zac"]{
+    border: 5px solid orange;
+}
+
+input[title$="ie"]{
+    border: 5px solid violet;
+}

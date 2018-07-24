@@ -1,0 +1,114 @@
+p#tytul {
+    color: #044b9f;
+    font-family: arial;
+    font-size: 16pt;
+    font-weight: 600;
+}
+
+form {
+    background: white;
+    width: 350px;
+    padding: 25px;
+    padding-top: 1px;
+}
+
+label {
+    display: block;
+    color: black;
+    margin-bottom: 5px;
+    font-family: arial;
+    font-size: 11pt;
+}
+
+label[for="mezczyzna"],
+label[for="kobieta"],
+label[for="zgoda"] {
+    display: inline;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    margin-bottom: 5px;
+    width: 350px;
+    background-color: white;
+    border: 1px solid #044b9f;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+input:focus[type="text"],
+input:focus[type="email"],
+input:focus[type="tel"] {
+    background-color: #d1e4f5;
+    border: black;
+    color: black;
+}
+
+select {
+    margin-bottom: 5px;
+    width: 350px;
+    background-color: white;
+    border: 1px solid #044b9f;
+    height: 30px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 11pt;
+    font-family: arial;
+}
+
+p#plec {
+    color: black;
+    font-family: arial;
+    font-size: 11pt;
+    line-height: 0px;
+}
+
+input[type="radio"] {
+    margin-bottom: 5px;
+}
+
+label[for="zgoda"] {
+    color: #044b9f;
+    font-family: arial;
+    font-size: 11pt;
+    line-height: 0px;
+}
+
+input[type="checkbox"] {
+    margin-bottom: 0x;
+}
+
+div#zgoda {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-top: 1px solid #044b9f;
+    border-bottom: 1px solid #044b9f;
+}
+
+textarea {
+    width: 350px;
+    height: 120px;
+    background-color: white;
+    border: 1px solid #044b9f;
+    margin-bottom: 10px;
+}
+
+textarea:focus {
+    background-color: #d1e4f5;
+    border: black;
+    color: black;
+}
+
+
+input[type="submit"] {
+    background-color: #044b9f;
+    width: 120px;
+    height: 30px;
+    color: white;
+    border: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}

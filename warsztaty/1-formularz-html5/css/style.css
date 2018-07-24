@@ -1,0 +1,130 @@
+body{
+    margin=0;
+}
+
+form{
+    background: #213b50;
+    width: 30%;
+    padding: 10px;
+}
+
+label{
+    display: block;
+    color: white;
+    margin-bottom: 5px;
+}
+
+label[for="male"],
+label[for="female"],
+label[for="agreement"]{
+    display: inline;
+}
+
+/*
+label[for="female"]{
+    display: inline;
+}
+
+label[for="agreement"]{
+    display: inline;
+}
+*/
+
+
+input[type="text"]{
+    margin-bottom: 5px;
+    width: 300px;
+    background-color: #2b4a64;
+    border: 0px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+input:focus[type="text"]{
+    background-color: #4e708c;
+    border: #ffffff;
+    color: #ffffff;
+}
+
+input[type="email"]{
+    margin-bottom: 5px;
+    width: 300px;
+    background-color: #2b4a64;
+    border: 0px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+input:focus[type="email"]{
+    background-color: #4e708c;
+    border: #ffffff;
+    color: #ffffff;
+}
+
+input[type="tel"]{
+    margin-bottom: 5px;
+    width: 300px;
+    background-color: #2b4a64;
+    border: 0px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+input:focus[type="tel"]{
+    background-color: #4e708c;
+    border: #ffffff;
+    color: #ffffff;
+}
+
+select{
+    margin-bottom: 5px;
+    width: 300px;
+    background-color: #2b4a64;
+    color: white;
+    border: 0px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+/*
+
+option{
+    color: white;
+}
+*/
+
+input[type="radio"]{
+    margin-bottom: 5px;
+}
+
+p{
+    color: white;
+    margin-bottom: 5px;
+}
+
+textarea{
+    width: 300px;
+    height: 100px;
+    background-color: #2b4a64;
+    margin-bottom: 10px;
+}
+
+textarea:focus{
+    background-color: #4e708c;
+    border: #ffffff;
+    color: #ffffff;
+}
+
+input[type="checkbox"]{
+    margin-bottom: 30px;
+}
+
+input[type="submit"]{
+    background-color: limegreen;
+    width: 60px;
+    height: 40px;
+    color: white;
+    border: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,28 @@
+.box{
+    height: 200px;
+}
+
+.container{
+    position: relative;
+}
+
+.orange{
+    background-color: orange;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    width: 100%;
+}
+
+.grey{
+    background-color: grey;
+}
+
+#main-nav{
+    position: sticky;
+    background-color: deepskyblue;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: white;
+}

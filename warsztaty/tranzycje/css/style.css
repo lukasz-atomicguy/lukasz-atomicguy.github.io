@@ -1,0 +1,31 @@
+.kwadrat{
+  width: 150px;
+  height: 150px;
+  margin: 10px auto;
+  transition: all 0.4s;
+}
+
+.czerwony{
+background-color: red;
+}
+
+.czerwony:hover{
+width:300px;
+}
+
+.niebieski{
+background-color:  blue;
+}
+
+.niebieski:hover{
+height: 300px;
+}
+
+.zielony{
+background-color: green;
+}
+
+.zielony:hover{
+width:300px;
+height:300px;
+}
