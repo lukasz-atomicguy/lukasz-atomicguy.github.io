@@ -1,0 +1,14 @@
+.box{
+    width:25%;
+    height:200px;
+    float:left;
+    border: 5px solid green;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 897px) {
+    .box{
+        width: 50%;
+    }
+}
