@@ -16,6 +16,7 @@ nav#menu {
     position: sticky;
     top: 0;
     background-color: white;
+    z-index: 1;
 }
 
 #menu {
@@ -179,7 +180,7 @@ div#portfolio3 {
     transition: all 0.3s linear;
     font-size: 18px;
     text-align: center;
-/*
+    /*
     display: flex;
     align-items: center;
     flex-direction: column;
