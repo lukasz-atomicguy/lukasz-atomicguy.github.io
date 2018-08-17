@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="POST" id="form-pizza">
+        <label for="imie">Imię: </label><input class="item-required" type="text" name="imie" id="imie"><br>
+        <label for="nazwisko">Nazwisko: </label><input type="text" class="item-required" name="nazwisko" id="nazwisko"><br>
+        <label for="ulica">Ulica: </label><input type="text" class="item-required" name="ulica" id="ulica"><br>
+        <label for="nrdomu">Nr domu/mieszkania: </label><input type="text" class="item-required" name="nrdomu" id="nrdomu"><br>
+        <label for="kod">Kod pocztowy: </label><input type="text" class="item-required" name="kod" id="kod"><br>
+        <label for="miasto">Miasto: </label><input type="text" class="item-required" name="miasto" id="miasto"><br>
+        <label for="pizza">Wybór pizzy: </label>
+        <select name="pizza" id="pizza">
+            <option name=selector value="defaultvalue" selected>--Wybierz pizzę--</option>           
+            <option name=selector value="pizza1">Pizza1</option>
+            <option name=selector value="pizza2">Pizza2</option>
+            <option name=selector value="pizza3">Pizza3</option>
+            <option name=selector value="pizza4">Pizza4</option>
+            <option name=selector value="pizza5">Pizza5</option>
+        </select>
+        <p class="cena" id="cena">Cena końcowa: 0 PLN</p><br>
+        <div id="sosybox">
+            <input type="checkbox" id="sos1" name="sos1"><label for="sos1">Sos pomidorowy</label>
+            <input type="checkbox" id="sos2" name="sos2"><label for="sos2">Sos czosnkowy</label>
+        </div><br>
+        <div id="zgodabox">
+            <input type="checkbox" class="checkbox-required" id="zgoda" name="zgoda"><label for="zgoda">Wyrażam zgodę na przetwarzanie moich danych osobowych</label>
+        </div><br>
+        <input type="submit" id="sub"  value="Wyślij">
+        <p><ul id="komunikat"></ul></p>
+    </form>
+    
+    
+        <!--  JQuery lokalnie:-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <!--    Polecenia JS i Jquery    -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

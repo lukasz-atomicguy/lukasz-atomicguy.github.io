@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            transition: all 0.6s;
+        }
+
+        .rutinoskorbin {
+            filter: blur(18px);
+        }
+        .h1-size-xl{
+            font-size: 3rem;
+            color: red;
+            transition: all 0.3s;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--    Model DOM, znajdowanie elementów:-->
+    <section id="sectionFirst">
+        <h1>Tytuł strony</h1>
+        <span class="my-span">Span</span>
+        <div id="parFirst">
+            <p>Tekst w tym akapicie.</p>
+            <a class="link" href="#" onclick="alert('Uwaga, uwaga');">Akapit Link 1</a>
+            <a class="link" href="#" onclick="changeBody(event);">Zmień na niebieski</a>
+        </div>
+        <div id="parSecond" style="height: 60px; border 1px black dotted">
+            <p>Tekst w tym akapicie.</p>
+        </div>
+        <a class="link" href="#">Rutinoskorbin</a>
+        <a class="link" href="#">Link 2</a>
+        <a class="link" href="#">Link 3</a>
+        <a class="link" href="#">Link 4</a>
+    </section>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
