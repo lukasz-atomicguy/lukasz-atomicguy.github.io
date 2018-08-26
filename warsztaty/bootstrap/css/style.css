@@ -1,0 +1,372 @@
+.nawigacja {
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+}
+
+.nawigacja-scroll {
+    background-color: rgba(13, 205, 216, 0.5);
+}
+
+#nav-tytul {
+    font-family: 'Droid Serif', sans-serif;
+    font-style: italic;
+    color: white;
+    font-size: 28px;
+}
+
+#nawigacja {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+#nawigacja:hover {
+    color: #0ed8d6;
+}
+
+header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/header/pictures_on_the_wall.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#DivinHeader {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+p {
+    font-family: 'Droid Serif', sans-serif;
+    font-style: italic;
+}
+
+p#pInHeader {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+#buttonInHeader {
+    background-color: #0ed8d6;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+#buttonInHeader:hover {
+    background-color: white;
+    color: #0ed8d6;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h2 {
+    color: #333333;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+p#podNaglowkiem {
+    color: #777777;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+#ikony-services {
+    color: white;
+}
+
+#ikony-services {
+    font-size: 56px;
+    color: white;
+    background-color: #0ed8d6;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    margin-bottom: 20px;
+    line-height: 110px;
+    border: 1px solid #0ed8d6;
+}
+
+#ikony-services:hover {
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+    color: #0ed8d6;
+    background-color: white;
+}
+
+#services-ikony-tytul {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-style: normal;
+}
+
+#services-ikony-podtytul {
+    color: #777777;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-style: normal;
+}
+
+section#portfolio {
+    background-color: #f7f7f7;
+}
+
+div.jeden-rzad {
+    margin: 20px;
+}
+
+div.portfolio-item-contener {
+    height: 210px;
+    overflow: hidden;
+}
+
+div.portfolio-item {
+    height: 100%;
+    position: relative;
+}
+
+div.portfolio-item:hover {
+    transform: scale(1.4);
+    transition: all 0.2s linear;
+}
+
+div#portfolio1 {
+    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div#portfolio2 {
+    background-image: url(../img/portfolio/typing_on_laptop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div#portfolio3 {
+    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div#portfolio4 {
+    background-image: url(../img/portfolio/chaotic_paint.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div#portfolio5 {
+    background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div#portfolio6 {
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+i.fa-plus {
+    color: white;
+}
+
+.textramka {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(14, 216, 214, 0.8);
+    opacity: 0;
+    transition: all 0.3s linear;
+    font-size: 50px;
+}
+
+.textramka:hover {
+    opacity: 1;
+    color: white;
+    text-align: center;
+}
+
+div.porfolio-tekst-ramka {
+    padding-top: 15px;
+    background-color: white;
+    padding-bottom: 15px;
+}
+
+#portfolio-tytul {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-style: normal;
+    text-align: center;
+}
+
+#portfolio-podtytul {
+    color: #777777;
+    font-size: 14px;
+    text-align: center;
+}
+
+div.team-item {
+    margin-right: 35px;
+    margin-left: 35px
+}
+
+div.team-photo {
+    border-radius: 50%;
+    height: 160px;
+    margin-bottom: 20px;
+    border: 3px solid white;
+}
+
+div.team-photo:hover {
+    border-color: #0ed8d6;
+}
+
+div#team1 {
+    background-image: url(../img/team/man-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div#team2 {
+    background-image: url(../img/team/man-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div#team3 {
+    background-image: url(../img/team/woman-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+div.social-item {
+    background-color: black;
+    border-radius: 50%;
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+    margin-left: 5px;
+    margin-right: 5px
+}
+
+.fab {
+    color: white;
+}
+
+div.social-item:hover {
+    background-color: #0ed8d6;
+}
+
+p#team-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 0px;
+}
+
+div.team-tekst {
+    margin-top: 40px;
+}
+
+section#contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/footer/world-map.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h2#contact-h2 {
+    color: white;
+}
+
+#tekst-in-contact {
+    color: white;
+}
+
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    margin-bottom: 10px;
+    width: 380px;
+    background-color: white;
+    height: 40px;
+    border: 0px;
+    color: dimgray;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+
+textarea:focus,
+input:focus[type="text"],
+input:focus[type="email"],
+input:focus[type="tel"] {
+    background-color: #0ed8d6;
+    color: black;
+    text-transform: none;
+    font-size: 12px;
+    outline: none;
+}
+
+#wiadomosc {
+    height: 140px;
+}
+
+#stopka {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#link {
+    color: #777777;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+a#link:hover {
+    color: #0ed8d6;
+    text-decoration: none;
+}
+
+.ul-nav-bottom {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
