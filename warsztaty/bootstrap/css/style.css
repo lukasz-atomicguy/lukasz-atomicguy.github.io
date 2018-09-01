@@ -315,6 +315,11 @@ h2#contact-h2 {
     color: white;
 }
 
+div.form-column{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 textarea,
 input[type="text"],
 input[type="email"],
