@@ -249,12 +249,52 @@ input[type="submit"] {
 }
 
 @media (max-width: 992px) {
-    .zdjecie{
+    h2{
+        text-align: center;
+    }
+    
+    .zdjecie {
         text-align: center
     }
-    
-    .formularz{
-        align-content: center;
+/*
+
+    .formularz {
+        display: flex;
+        justify-content: center;
+        padding-right: 75px;
+        padding-left: 0;
     }
-    
+*/
+
+    h2.KontaktImie {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    p.adres {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    ul.ikony {
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        margin-left: 0
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 80%;
+    }
+
+    .formularz-row{
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
 }
