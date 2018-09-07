@@ -1,0 +1,223 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lato', sans-serif; }
+
+span {
+  color: #1ac056; }
+
+.menu {
+  position: fixed;
+  width: 100%;
+  background-color: white; }
+  .menu-item {
+    padding: 10px 20px;
+    @inclide list-style;
+    color: #1ac056; }
+    .menu-item:hover {
+      color: #291f1a; }
+
+header {
+  height: 100vh;
+  background-image: url(../img/header-background.jpg);
+  background-size: cover;
+  background-position: center; }
+
+h1 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 50px; }
+
+p#pInHeader {
+  color: white;
+  font-weight: 300;
+  font-size: 28px; }
+
+p.ramkatytul {
+  font-size: 28px; }
+  p.ramkatytul2 {
+    font-weight: 700; }
+
+p.adres {
+  color: white;
+  margin-left: 100px;
+  margin-bottom: 30px; }
+
+h2 {
+  color: black;
+  font-size: 28px;
+  font-weight: 400;
+  margin: 50px; }
+  h2.KontaktImie {
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 50px; }
+
+section#omnie {
+  background-color: #f9fcfe;
+  padding-bottom: 50px; }
+
+section#umiejetnosci {
+  background-color: white;
+  margin-bottom: 50px; }
+
+section#portfolio {
+  background-color: #f9fcfe;
+  padding: 100px;
+  padding-top: 10px;
+  padding-bottom: 50px; }
+
+section#kontakt {
+  background-color: #213b50;
+  padding-bottom: 50px; }
+
+i.ikona-umiejetnosci {
+  font-size: 67px; }
+
+.umiejetnosci-item-text {
+  padding: 10px 20px;
+  list-style: none; }
+
+figcaption {
+  margin-top: 10px; }
+
+div.portfolio-item {
+  height: 400px;
+  position: relative;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-size: cover;
+  background-position: center; }
+
+div#portfolio1 {
+  background-image: url(../img/portfolio1.jpg); }
+
+div#portfolio2 {
+  background-image: url(../img/portfolio2.jpg); }
+
+div#portfolio3 {
+  background-image: url(../img/portfolio3.jpg); }
+
+.textramka {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(42, 61, 79, 0.8);
+  opacity: 0;
+  transition: all 0.3s linear;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px; }
+  .textramka:hover {
+    opacity: 1;
+    color: white;
+    padding: 10px;
+    text-align: center; }
+
+.fa-link {
+  font-size: 49px;
+  color: #1ac056; }
+
+.adres a {
+  text-decoration: none;
+  color: #1ac056; }
+  .adres a:hover {
+    color: white; }
+
+ul.ikony {
+  margin-left: 55px; }
+
+li.stopka {
+  padding: 5px;
+  list-style: none; }
+
+a.ikonastopka {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border: 1px solid white;
+  font-size: 25px;
+  color: white; }
+  a.ikonastopka:hover {
+    background-color: white;
+    color: #213b50;
+    text-decoration: none; }
+
+.formularz {
+  padding-right: 140px;
+  margin-top: 60px; }
+
+input[type="text"],
+input[type="email"] {
+  height: 35px;
+  color: white;
+  width: 500px;
+  background-color: #445461;
+  margin-bottom: 12px;
+  border: 0px; }
+  input[type="text"]:focus,
+  input[type="email"]:focus {
+    background-color: #d1e4f5;
+    border: black;
+    color: black;
+    padding-left: 10px; }
+
+textarea {
+  height: 55px;
+  width: 500px;
+  background-color: #445461;
+  margin-bottom: 12px;
+  border: 0px; }
+  textarea:focus {
+    background-color: #d1e4f5;
+    border: black;
+    color: black;
+    padding-left: 10px; }
+
+input[type="submit"] {
+  background-color: #1ac056;
+  width: 120px;
+  height: 30px;
+  color: white;
+  border: 0px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px; }
+
+::placeholder {
+  color: white;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-family: 'Lato', sans-serif; }
+
+@media (max-width: 992px) {
+  h2 {
+    text-align: center; }
+    h2.KontaktImie {
+      text-align: center;
+      margin-left: 0;
+      margin-right: 0; }
+  .zdjecie {
+    text-align: center; }
+  p.adres {
+    margin-left: 0;
+    text-align: center; }
+  ul.ikony {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-left: 0; }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 80%; }
+  .formularz-row {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; } }
