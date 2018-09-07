@@ -64,7 +64,7 @@ section#umiejetnosci {
     margin-bottom: 50px;
 }
 
-i#ikona-umiejetnosci {
+i.ikona-umiejetnosci {
     font-size: 67px;
 }
 
@@ -124,11 +124,11 @@ div#portfolio3 {
     text-align: center;
 }
 
-p#ramkatytul {
+p.ramkatytul {
     font-size: 28px;
 }
 
-p#ramkatytul2 {
+p.ramkatytul2 {
     font-weight: 700;
 }
 
@@ -172,12 +172,12 @@ ul.ikony {
     margin-left: 55px;
 }
 
-li#stopka {
+li.stopka {
     padding: 5px;
     list-style: none;
 }
 
-a#ikonastopka {
+a.ikonastopka {
     width: 40px;
     height: 40px;
     padding: 5px;
@@ -186,7 +186,7 @@ a#ikonastopka {
     color: white;
 }
 
-a#ikonastopka:hover {
+a.ikonastopka:hover {
     background-color: white;
     color: #213b50;
     text-decoration: none;
