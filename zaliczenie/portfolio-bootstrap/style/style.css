@@ -247,3 +247,14 @@ input[type="submit"] {
     padding-top: 5px;
     font-family: 'Lato', sans-serif;
 }
+
+@media (max-width: 992px) {
+    .zdjecie{
+        text-align: center
+    }
+    
+    .formularz{
+        align-content: center;
+    }
+    
+}
